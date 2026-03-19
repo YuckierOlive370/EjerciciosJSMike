@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>IMC Indice de Masa Corporal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>IMC Indice de Masa Corporal</h1>
+    <label for="peso">Peso (kg):</label>
+    <input type="number" id="peso">
+
+    <label for="altura">Altura (cm):</label>
+    <input type="number" id="altura">
+
+    <div>
+        <button onclick="calcular()">calcular</button>
+        <button onclick="limpiar()">limpiar</button>
+    </div>
+
+    <label for="resultado">resultado:</label>
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+
+    </div >
+</body>
+</html>
