@@ -19,8 +19,14 @@ function calcular() {
             grado = "Peso normal";
         } else if (imc >= 25 && imc < 29.9) {
             grado = "Sobrepeso";
+        } else if (imc >= 30 && imc < 34.9) {
+            grado = "Obesidad I";
+        } else if (imc >= 35 && imc < 39.9) {
+            grado = "Obesidad II";
+        } else if (imc >= 40 && imc < 49.9) {
+            grado = "Obesidad III";
         } else {
-            grado = "Obesidad";
+            grado = "Obesidad IV";
         }
 
         document.getElementById("resultado").innerHTML =
